@@ -1,8 +1,7 @@
-/*
-* Name : Calculator
-* Author : Rimjhim
+/*    
+* Version : v1.0
+* Name: Developer 
 */
-
 public with sharing class Calculator {
     public Calculator() {
         
@@ -11,4 +10,9 @@ public with sharing class Calculator {
     public integer sub(integer a, integer b){
         return a - b ;
     }
+    public integer add(integer a, integer b){
+        return a + b;
+    }
+
+    
 }
